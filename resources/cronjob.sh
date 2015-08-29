@@ -1,2 +1,2 @@
-0 1 * * * /runscript.py
+0 1 * * * /runscript.py >> /tmp/curator.log
 
