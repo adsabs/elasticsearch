@@ -1,2 +1,2 @@
-* 1 * * * /runscript.sh
+0 1 * * * /runscript.py
 

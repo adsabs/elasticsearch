@@ -14,7 +14,7 @@ RUN wget -qO- https://download.elastic.co/elasticsearch/elasticsearch/elasticsea
 
 ## Install curator for elasticsearch
 RUN pip install elasticsearch-curator
-COPY resources/runscript.sh /runscript.sh
+COPY resources/runscript.py /runscript.py
 COPY resources/cronjob.sh /cronjob.sh
 RUN crontab /cronjob.sh
 
